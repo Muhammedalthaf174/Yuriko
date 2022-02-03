@@ -472,7 +472,7 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp")]]
             ),
-        )
+        
         )
     elif query.data == "yurikorobot_admin":
         query.message.edit_text(
